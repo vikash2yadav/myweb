@@ -6,6 +6,7 @@ const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 require("dotenv").config({ path: './.env' })
 require('./config/global');
+require('./config/database');
 const app = express();
 const http = require('http');
 
